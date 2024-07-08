@@ -1,0 +1,82 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+body {
+  background: rgb(0, 122, 109);
+} 
+
+.conteiner{
+  font-family: 'Roboto', sans-serif;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.vopros {
+
+  margin: 70px;
+  padding: 70px;
+  background: white;
+  border-radius: 15px;
+  font-size: 16px;
+  align-items: center;
+  position: relative;
+  border-top: 30px solid orange;
+  padding-top: 15px;
+}
+
+.i {
+  font-style: italic;
+  margin: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  text-indent: 20px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.otvet{
+  text-align: left;
+}
+
+
+.button input[type="submit"], input[type="button"] {
+  background-color: #58a381;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-top: 80px;
+}
+
+.button input[type='submit']:hover {
+  background-color: orange;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #44af44;
+  border-radius: 5px;
+}
+
+select:hover {
+  border-color: #579662;
+}
+
+select:focus {
+  outline: none;
+  border-color: #20dd40;
+  box-shadow: 0 0 5px rgba(93, 199, 81, 0.6);
+}

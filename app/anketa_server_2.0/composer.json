@@ -1,0 +1,12 @@
+{
+    "name": "avslogin/anketa",
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "controllers/",
+            "Models\\": "models/"
+        }
+    },
+    "require": {
+        "mongodb/mongodb": "1.19.1"
+    }
+}
